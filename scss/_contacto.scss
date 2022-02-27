@@ -1,0 +1,61 @@
+.contenedor-formulario{
+    max-width: 95%;
+    margin: 0 auto 0 auto;
+    padding-right: 1rem;
+
+    .estructura-formulario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        label{
+            font-size: 2rem;
+            text-transform: uppercase;
+            padding-right: 2rem;
+            padding-top: 1rem;
+            
+        }
+
+        input,select{
+            width: 100%;
+            height: 4rem;
+            border: 5px solid $marronOscuro;
+        }
+    }
+
+    form{
+        div{
+            margin: 3rem 0 3rem 0;
+        }
+
+        .envir-formulario{
+
+            input{
+                width: 100%;
+                height: 4rem;
+                background-color: $marronOscuro;
+                color: white;
+                text-transform: uppercase;
+                
+            }
+        } 
+    } 
+    
+}
+
+.bg-contacto{
+    background: $headerGradiente, url(../img/header_contacto.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+/*-----------contacto-mediaQuery---------------*/
+
+@media screen and (max-width:688px) {
+
+    .contenedor-formulario{
+
+        .estructura-formulario{
+            grid-template-columns: 1fr;
+        }
+    }
+}

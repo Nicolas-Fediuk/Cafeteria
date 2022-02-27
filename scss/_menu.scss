@@ -1,0 +1,28 @@
+.bg-menu{
+    background: $headerGradiente, url(../img/header_menu.jpg);
+    background-size: cover;
+}
+
+.sub-titulos-main-menu{
+    color: white;
+    text-align: center;
+    padding: 2rem 0 5rem 0;
+
+    p{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+}
+
+.img-menu2{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+
+    .img{
+        width: 40rem;
+    }
+}

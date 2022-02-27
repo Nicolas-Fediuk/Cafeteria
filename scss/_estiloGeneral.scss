@@ -1,0 +1,72 @@
+$marronOscuro:#663300;
+$maronClaro: rgb(211, 114, 44);
+$headerGradiente: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.5));
+
+.alinear{
+    text-align: center;
+}
+
+.wapp{
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: rgb(158, 130, 107);
+}
+p,h2{
+    margin: 0;
+}
+h1,a,h2,h3,label{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2{
+    font-weight: 500;
+}
+h1{
+    font-size: 3.5rem;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+h3{
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem;
+    font-weight: 500;
+}
+ul li{
+    list-style: none;
+}
+ul{
+    display: flex;
+}
+.sub-titulos{
+    padding-top: 5rem;
+}
+.sub-titulos p{
+    color: $maronClaro;
+    font-size: 2rem;
+}
+.sub-titulos h2{
+    color: $marronOscuro;
+    font-size: 3rem;
+}
+.contenedor{
+    max-width: 75rem;
+    margin: -3rem auto 0 auto;
+    background-color: white;
+}
+
+.ico-wap{
+    position: fixed;
+    width: 5.5rem;
+    bottom: 3rem;
+    right: 3rem;
+}

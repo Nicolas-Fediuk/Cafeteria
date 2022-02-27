@@ -1,0 +1,27 @@
+.bg-proceso{
+    background: $headerGradiente url(../img/header_proceso.jpg);
+    background-size: cover;
+}
+
+.contenedor-proceso{
+    display: flex;
+    align-items: center;
+
+    .alinear{
+        padding-bottom: 3rem;
+    }
+
+    .proceso-iframe{
+        width: 50%;
+
+        iframe{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .proceso-iframe{
+        width: 100%;
+    }
+}
