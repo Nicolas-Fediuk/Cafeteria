@@ -1,3 +1,11 @@
+@mixin imagenes($tipo) {
+    grid-area: $tipo;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+}
+
 .bg-galeria{
     background: $headerGradiente url(../img/header_galeria.jpg);
     background-size: cover;
@@ -10,7 +18,6 @@
 .galeria{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(10rem,5);
     grid-template-areas: 
     "galeria-img-1 galeria-img-2 galeria-img-2 galeria-img-3"
     "galeria-img-1 galeria-img-4 galeria-img-5 galeria-img-5"
@@ -31,83 +38,43 @@
     }
 
     .galeria-img1{
-        grid-area: galeria-img-1;
-
-        &:hover{
-            transform: scale(1.1);
-        }
+        @include imagenes(galeria-img-1);
     }
 
     .galeria-img2{
-        grid-area: galeria-img-2;
-
-        &:hover{
-            transform: scale(1.1);
-        }
+        @include imagenes(galeria-img-2);
     }
 
     .galeria-img3{
-        grid-area: galeria-img-3;
-
-        &:hover{
-            transform: scale(1.1);
-        }
+        @include imagenes(galeria-img-3);
     }
 
     .galeria-img4{
-        grid-area: galeria-img-4;
-
-        &:hover{
-            transform: scale(1.1);
-        }
+        @include imagenes(galeria-img-4);
     }
 
     .galeria-img5{
-        grid-area: galeria-img-5;
-
-        &:hover{
-            transform: scale(1.1);
-        }
+        @include imagenes(galeria-img-5);
     }
 
     .galeria-img6{
-        grid-area: galeria-img-6;
-
-        &:hover{
-            transform: scale(1.1);
-        }
+        @include imagenes(galeria-img-6);
     }
 
     .galeria-img7{
-        grid-area: galeria-img-7;
-
-        &:hover{
-            transform: scale(1.1);
-        }
+        @include imagenes(galeria-img-7);
     }
 
     .galeria-img8{
-        grid-area: galeria-img-8;
-
-        &:hover{
-            transform: scale(1.1);
-        }
+        @include imagenes(galeria-img-8);
     }
 
     .galeria-img9{
-        grid-area: galeria-img-9;
-
-        &:hover{
-            transform: scale(1.1);
-        }
+        @include imagenes(galeria-img-9);
     }
 
     .galeria-img10{
-        grid-area: galeria-img-10;
-
-        &:hover{
-            transform: scale(1.1);
-        }
+        @include imagenes(galeria-img-10);
     }
 }
 
@@ -123,7 +90,6 @@
     .galeria{
        
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(1fr,5);
         grid-template-areas: 
         "galeria-img-1 galeria-img-2 "
         "galeria-img-3 galeria-img-4 "
@@ -139,7 +105,6 @@
     .galeria{
        
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(1fr,10);
         grid-template-areas: 
         "galeria-img-1 "
         "galeria-img-2 "

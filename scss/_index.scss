@@ -67,6 +67,7 @@ header{
 //sobre nosotros
 
 .sobre-nosotros-index{
+    @extend .contenedor;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 15rem;
@@ -94,6 +95,7 @@ header{
     }
 
     .nosotros-img1{
+        @extend .iconos-nosotros;
         grid-area: img1;
         transition: all 1s;
 
@@ -103,6 +105,7 @@ header{
     }
 
     .nosotros-img2{
+        @extend .iconos-nosotros;
         grid-area: img2;
         transition: all 1s;
 
@@ -112,6 +115,7 @@ header{
     }
 
     .nosotros-img3{
+        @extend .iconos-nosotros;
         grid-area: img3;
         transition: all 1s;
 

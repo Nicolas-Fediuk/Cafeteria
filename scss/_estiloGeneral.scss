@@ -19,27 +19,38 @@ body{
 p,h2{
     margin: 0;
 }
+
+
+$fontWeight: (
+    grande:500,
+    chico:300
+);
+
+$LetraGrande: map-get($fontWeight, grande);
+$LetrarChica: map-get($fontWeight, chico);
+
+
 h1,a,h2,h3,label{
     font-family: 'Roboto', sans-serif;
 }
 h1,h2{
-    font-weight: 500;
+    font-weight: $LetraGrande;
 }
 h1{
     font-size: 3.5rem;
 }
 p{
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight:$LetrarChica;
 }
 h3{
-    font-weight: 300;
+    font-weight: $LetrarChica;
 }
 a{
     text-decoration: none;
     color: black;
     margin: 0 0.5rem;
-    font-weight: 500;
+    font-weight: $LetraGrande;
 }
 ul li{
     list-style: none;

@@ -53,7 +53,7 @@ ul {
   color: #663300;
   font-size: 3rem; }
 
-.contenedor {
+.contenedor, .sobre-nosotros-index {
   max-width: 75rem;
   margin: -3rem auto 0 auto;
   background-color: white; }
@@ -129,11 +129,11 @@ header {
     transition: all 1s; }
     .sobre-nosotros-index .nosotros-img3:hover {
       transform: scale(1.3); }
-  .sobre-nosotros-index .iconos-nosotros {
+  .sobre-nosotros-index .iconos-nosotros, .sobre-nosotros-index .nosotros-img1, .sobre-nosotros-index .nosotros-img2, .sobre-nosotros-index .nosotros-img3 {
     text-align: center; }
-    .sobre-nosotros-index .iconos-nosotros img {
+    .sobre-nosotros-index .iconos-nosotros img, .sobre-nosotros-index .nosotros-img1 img, .sobre-nosotros-index .nosotros-img2 img, .sobre-nosotros-index .nosotros-img3 img {
       width: 10rem; }
-    .sobre-nosotros-index .iconos-nosotros p {
+    .sobre-nosotros-index .iconos-nosotros p, .sobre-nosotros-index .nosotros-img1 p, .sobre-nosotros-index .nosotros-img2 p, .sobre-nosotros-index .nosotros-img3 p {
       color: #663300;
       font-size: 2rem;
       padding: 1rem 0 6rem 0; }
@@ -335,7 +335,6 @@ footer {
 .galeria {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(10rem, 5);
   grid-template-areas: "galeria-img-1 galeria-img-2 galeria-img-2 galeria-img-3" "galeria-img-1 galeria-img-4 galeria-img-5 galeria-img-5" "galeria-img-7 galeria-img-4 galeria-img-6 galeria-img-6" "galeria-img-7 galeria-img-8 galeria-img-8 galeria-img-8" "galeria-img-9 galeria-img-9 galeria-img-10 galeria-img-10";
   gap: 1rem;
   width: 80%;
@@ -394,13 +393,11 @@ footer {
 @media screen and (max-width: 992px) {
   .galeria {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1fr, 5);
     grid-template-areas: "galeria-img-1 galeria-img-2 " "galeria-img-3 galeria-img-4 " "galeria-img-5 galeria-img-6 " "galeria-img-7 galeria-img-8 " "galeria-img-9 galeria-img-10"; } }
 
 @media screen and (max-width: 688px) {
   .galeria {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(1fr, 10);
     grid-template-areas: "galeria-img-1 " "galeria-img-2 " "galeria-img-3 " "galeria-img-4 " "galeria-img-5 " "galeria-img-6 " "galeria-img-7 " "galeria-img-8 " "galeria-img-9 " "galeria-img-10"; } }
 
 .bg-menu {
@@ -416,11 +413,11 @@ footer {
   .sub-titulos-main-menu h2 {
     font-size: 3rem; }
 
-.img-menu2 {
+main .img-menu2 {
   padding-top: 5rem;
   display: flex;
   justify-content: center; }
-  .img-menu2 .img {
+  main .img-menu2 .img {
     width: 40rem; }
 
 .contenedor-formulario {
@@ -438,7 +435,8 @@ footer {
     .contenedor-formulario .estructura-formulario input, .contenedor-formulario .estructura-formulario select {
       width: 100%;
       height: 4rem;
-      border: 5px solid #663300; }
+      border: 5px solid #663300;
+      background-color: white; }
   .contenedor-formulario form div {
     margin: 3rem 0 3rem 0; }
   .contenedor-formulario form .envir-formulario input {
@@ -446,7 +444,9 @@ footer {
     height: 4rem;
     background-color: #663300;
     color: white;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer; }
 
 .bg-contacto {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header_contacto.jpg);
