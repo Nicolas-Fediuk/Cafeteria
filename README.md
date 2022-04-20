@@ -1,8 +1,8 @@
-#Bohemio, casa del café
+# Bohemio, casa del café
 
 Sitio web desarrollado mientras cursaba en coderhouse, alojado en Netlify.
 
-###Descripción
+### Descripción
 
 Constituido por 6 páginas (incluyendo el index) adaptables a cualquier tamaño de pantalla, utilizando:
 - HTML5
@@ -11,7 +11,7 @@ Constituido por 6 páginas (incluyendo el index) adaptables a cualquier tamaño 
 
 Las páginas describen sobre el negocio, menu, galeria, contacto y proceso del café.
 
-####[Index](https://nostalgic-khorana-136acd.netlify.app/)
+#### [Index](https://nostalgic-khorana-136acd.netlify.app/)
 
 - header:  En esa sección se puede observar el logo del lugar, una imagen de fondo y la barra de navegación, que haciendo click en cada enlace nos lleva a cada página del sitio.
 
@@ -23,7 +23,7 @@ Las páginas describen sobre el negocio, menu, galeria, contacto y proceso del c
 
 - Footer: Lugar, datos de la empresa y Copyright.
 
-####[Nosotros](https://nostalgic-khorana-136acd.netlify.app/html/nosotros.html)
+#### [Nosotros](https://nostalgic-khorana-136acd.netlify.app/html/nosotros.html)
 
 - header:  En esa sección se puede observar el logo del lugar, una imagen de fondo y la barra de navegación, que haciendo click en cada enlace nos lleva a cada página del sitio.
 
@@ -31,7 +31,7 @@ Las páginas describen sobre el negocio, menu, galeria, contacto y proceso del c
 
 - Footer: Lugar, datos de la empresa y Copyright.
 
-####[Proceso](https://nostalgic-khorana-136acd.netlify.app/html/nosotros.html)
+#### [Proceso](https://nostalgic-khorana-136acd.netlify.app/html/nosotros.html)
 
 - header:  En esa sección se puede observar el logo del lugar, una imagen de fondo y la barra de navegación, que haciendo click en cada enlace nos lleva a cada página del sitio.
 
@@ -39,7 +39,7 @@ Las páginas describen sobre el negocio, menu, galeria, contacto y proceso del c
 
 - Footer: Lugar, datos de la empresa y Copyright.
 
-####[Menú](https://nostalgic-khorana-136acd.netlify.app/html/menu.html)
+#### [Menú](https://nostalgic-khorana-136acd.netlify.app/html/menu.html)
 
 - header:  En esa sección se puede observar el logo del lugar, una imagen de fondo y la barra de navegación, que haciendo click en cada enlace nos lleva a cada página del sitio.
 
@@ -47,7 +47,7 @@ Las páginas describen sobre el negocio, menu, galeria, contacto y proceso del c
 
 - Footer: Lugar, datos de la empresa y Copyright.
 
-####[Galería](https://nostalgic-khorana-136acd.netlify.app/html/galeria.html)
+#### [Galería](https://nostalgic-khorana-136acd.netlify.app/html/galeria.html)
 
 - header:  En esa sección se puede observar el logo del lugar, una imagen de fondo y la barra de navegación, que haciendo click en cada enlace nos lleva a cada página del sitio.
 
@@ -55,7 +55,7 @@ Las páginas describen sobre el negocio, menu, galeria, contacto y proceso del c
 
 - Footer: Lugar, datos de la empresa y Copyright.
 
-####[Contácto](https://nostalgic-khorana-136acd.netlify.app/html/contacto.html)
+#### [Contácto](https://nostalgic-khorana-136acd.netlify.app/html/contacto.html)
 
 - header:  En esa sección se puede observar el logo del lugar, una imagen de fondo y la barra de navegación, que haciendo click en cada enlace nos lleva a cada página del sitio.
 
@@ -63,7 +63,7 @@ Las páginas describen sobre el negocio, menu, galeria, contacto y proceso del c
 
 - Footer: Lugar, datos de la empresa y Copyright.
 
-###Qr
+### Qr
 
 Creación de de código QR para escanear el menú. El estilo se puede modificar a gusto.
 
