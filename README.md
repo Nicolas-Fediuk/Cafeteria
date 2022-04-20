@@ -1,6 +1,6 @@
 # Bohemio, casa del café
 
-Sitio web desarrollado mientras cursaba en coderhouse, alojado en Netlify.
+Sitio web desarrollado mientras cursaba en coderhouse, alojado en Netlify (solo maquetación).
 
 ### Descripción
 
